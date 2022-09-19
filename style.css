@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+   
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+/* header */
+header .nav-bar{
+    color: white;
+    background-color: rgb(57, 101, 114);
+    display: flex;
+    justify-content: space-between;
+    line-height: 50px;
+    padding: 1px 50px 1px 150px; 
+}
+header .nav-bar .nav-link a{
+    text-decoration: none;
+    margin-right: 50px;
+    color: white;
+}
+/* section */
+section img{
+    width: 300px;
+    height: 400px;
+    border: 3px solid rgb(8, 48, 6);
+    border-radius: 1px 15px 1px 15px;
+}
+section .intro{
+    text-align: center;
+    color: rgb(57, 101, 114);
+    background-color: white;
+    margin: 40px;
+    line-height: 40px;
+}
+section .intro p{color: black;}
+section .detail{
+    color: white;
+    background-color: rgb(57, 101, 114);
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+  }
+section .detail .detail-desc{
+    width: 50%;
+    box-shadow: 1px 1px 30px rgb(0 0 0 / 10%);
+    border-radius: 2px;
+    padding:  50px;
+}
+section .serv{
+    color:  rgb(57, 101, 114);
+    background-color: white;
+    line-height: 30px;
+    text-align: left;
+}
+section h4{
+    font-weight: bold;
+    margin: 50px 1px 1px 50px;
+    }
+section .serv .service{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 50px 50px 50px;
+}
+section .serv .service .service-desc{
+    color: white;
+    text-align: center;
+    background-color:  rgb(50, 121, 124);
+    padding: 25px;
+    width: 30%;
+    box-shadow: 1px 1px 30px rgb(0 0 0 / 20%);
+    border-radius: 15px;
+    transition: 0.3s ease-in-out;
+}
+section .serv .service .service-desc:hover{ 
+    background-color: rgba(0, 131, 143, 10%);
+    box-shadow: 1px 1px 30px rgb(0 0 0 / 50%);
+    color: #1f1717;
+}
+footer .end{
+    text-align: center;
+    background-color: rgb(57, 101, 114);
+    color: white;
+    height: 200px;
+    }
+footer .end .ending{
+    line-height: 30px;
+    padding: 20px;
+    margin: 25px;
+}
+footer .end .ending .social{
+   display: flex;
+   justify-content: space-evenly;
+   list-style: none;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
